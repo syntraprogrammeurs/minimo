@@ -21,6 +21,15 @@
 .justify-content-between{
   justify-content:space-between;
 }
+.justify-content-around{
+  justify-content:space-around;
+}
+.flex-wrap{
+  flex-wrap:wrap;
+}
+.flex-nowrap{
+  flex-wrap:nowrap;
+}
 /*children centreren zichzelf tov de parent*/
 .align-items-center{
 	align-items:center;
@@ -42,6 +51,9 @@
 }
 .lower{
     text-transform: lowercase;
+}
+.capital{
+   text-transform: capitalize;
 }
 
 
@@ -79,7 +91,22 @@ header nav ul li a{
   text-decoration:none;
   color:#626262;
   font-size:14px;
-  padding-right:106px;
+ /* padding-right:106px;*/
+}
+header nav ul li a:hover{
+  font-size:1rem;
+}
+
+#photodiaries article{
+     width:35%;
+}
+#myarticles div{
+   flex: 0 1 100vw;
+   background:yellow;
+   position: relative;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 /*header nav ul li a:last-child{
   padding-right:0px;
