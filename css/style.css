@@ -64,6 +64,10 @@
   font-family: PlayfairDisplay-Regular;
   src: url('../assets/PlayfairDisplay-Regular.ttf');
 }
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url('../assets/Ubuntu-Light.ttf');
+}
 body{
   width:1062px;
   margin:0 auto;
@@ -96,20 +100,41 @@ header nav ul li a{
 header nav ul li a:hover{
   font-size:1rem;
 }
-
+.category{
+  color:#f0f0f0;
+  font-family:'Ubuntu-Light';
+}
 #photodiaries article{
-     width:35%;
+     width:422px;
+}
+#myarticles{
+  width:900px;
+  margin:0 auto;
 }
 #myarticles div{
-   flex: 0 1 100vw;
-   background:yellow;
-   position: relative;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+  flex: 0 1 100vw;
+  background:#f0f0f0;
+margin-top:60px;
+margin-bottom:60px;
+  height:285px;
+ 
+  
 }
-/*header nav ul li a:last-child{
-  padding-right:0px;
-}*/
+button, input{
+    background: none;
+    border: 0px;
+}
+input{
+  width:400px;
+  border-bottom:1px solid #000;
+}
+button{
+      position: absolute;
+    left: 61.5%;
+}
+
+
+
+
 
 
