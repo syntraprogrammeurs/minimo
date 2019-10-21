@@ -30,6 +30,9 @@
 .flex-nowrap{
   flex-wrap:nowrap;
 }
+.flex-grow-1{
+  flex-grow: 1;
+}
 /*children centreren zichzelf tov de parent*/
 .align-items-center{
 	align-items:center;
@@ -43,6 +46,9 @@
 }
 .w-75{
 	width:75%;
+}
+.w-100{
+  width:100%;
 }
 
 /*- Typography -*/
@@ -132,9 +138,39 @@ button{
       position: absolute;
     left: 61.5%;
 }
+#load{
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50px;
+    top: 50px;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+   padding: 20px 40px;
+    font-size: 1rem;
+}
+#load:hover{
+    color:white;
+    background:#626262;
+
+}
+footer{
+  position:relative;
+  background:#f0f0f0;
+  margin-top:50px;
+}
+#social i:not(:last-child){
+  padding-right:10px;
+}
+#social p{
+  padding-right:10px;
+}
 
 
 
 
 
-
+.breakout-calc {
+  margin-left: calc(-100vw / 2 + 500px / 2);
+  margin-right: calc(-100vw / 2 + 500px / 2);
+}
